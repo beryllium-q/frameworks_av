@@ -365,8 +365,6 @@ OMXNodeInstance::OMXNodeInstance(
     mDebugLevelBumpPendingBuffers[1] = 0;
     mMetadataType[0] = kMetadataBufferTypeInvalid;
     mMetadataType[1] = kMetadataBufferTypeInvalid;
-    mMetadataType[2] = kMetadataBufferTypeInvalid;
-    mMetadataType[3] = kMetadataBufferTypeInvalid;
     mPortMode[0] = IOMX::kPortModePresetByteBuffer;
     mPortMode[1] = IOMX::kPortModePresetByteBuffer;
     mSecureBufferType[0] = kSecureBufferTypeUnknown;
